@@ -1,0 +1,125 @@
+
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    .navbar-toggler  {
+        color: white;
+        font-size: 25px;
+        border: 0;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar .nav-item {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .navbar-collapse {
+        text-align: center;
+        margin-top: 20px;
+        background: rgb(0, 0, 0, 0.6);
+        padding: 20px 0;
+    }
+    .navbar .btn {
+        padding: 19px 30px !important;
+        font-size: 15px;
+    }
+    #banner_slidder .banner-part .overlay {
+        width: auto;
+        padding: 150px 0 176px !important;
+    }
+    #banner_slidder .banner-part .main h1 {
+        width: auto;
+        font-size: 36px;
+    }
+    #banner_slidder .banner-part .main p {
+        width: auto;
+        font-size: 13px;
+    }
+    #counter-part {
+        padding: 100px 0 50px !important;
+    }
+    #counter-part .main .left h1 {
+        width: auto;
+        font-size: 19px;
+    }
+    #counter-part .main .right {
+        flex-direction: column;
+        text-align: center;
+    }
+    #counter-part .main .right .text {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    #service-part {
+        padding: 50px 0 !important;
+    }
+    #service-part .titel p {
+        width: auto;
+        text-align: justify;
+        padding: 0 10px;
+        font-size: 15px;
+    }
+    #service-part .main .text p {
+        width: auto;
+        text-align: justify;
+    }
+    #recent-part .titel p {
+        width: auto;
+        text-align: justify;
+        padding: 0 10px;
+        font-size: 15px;
+    }
+    #recent-part .main .text p {
+        width: auto;
+    }
+    #agenc-part {
+        padding: 100px 0 0 !important;
+    }
+    #agenc-part .titel h2 {
+        width: auto;
+        font-size: 35px;
+    }
+    #agenc-part .titel p {
+        width: auto;
+        text-align: justify;
+        padding: 0 10px;
+        font-size: 15px;
+    }
+    #agenc-part .top p {
+        width: auto;
+    }
+    #agenc-part .bottom p {
+        width: auto;
+    }
+    #agenc-part .image img {
+        display: none;
+    }
+    #client-part {
+        padding: 100px 0 150px !important;
+    }
+    #client-part .client_01 .client-slider .text p {
+        width: auto;
+    }
+    #client-part .client_01 .client-slider01 .text p {
+        width: auto;
+    }
+    #client-part .client_01 .client-slider02 .text p {
+        width: auto;
+    }
+    #client-part .client_01 .client-slider03 .text p {
+        width: auto;
+    }
+    #client-part .client_01 .client-slider04 .text p {
+        width: auto;
+    }
+    #client-part .client_01 .client-slider05 .text p {
+        width: auto;
+    }
+    #form-part .text h1 {
+        font-size: 30px;
+    }
+    #form-part .text p {
+        width: auto;
+        text-align: justify;
+    }
+}

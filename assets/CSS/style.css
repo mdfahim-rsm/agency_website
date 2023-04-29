@@ -1,0 +1,953 @@
+/* ---------- Global CSS Start ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.titel {
+    text-align: center;
+}
+.titel h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #151515;
+}
+.titel p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #737373;
+}
+/* ---------- Global CSS End ---------- */
+
+
+/* ---------- NavBar Part CSS Start ---------- */
+nav { 
+    background: transparent;
+    width: 100%;
+    position: absolute !important;
+    top: 50px;
+    z-index: 999;
+}
+.sticky {
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.5);
+}
+.navbar {
+    padding: 0;
+}
+.navbar .nav-item {
+    width: 67px;
+    margin-left: 67px;
+}
+.navbar .nav-item:first-child {
+    margin-left: 0;
+}
+.navbar .nav-item .active {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 18px;
+    line-height: 26px;
+    color: #4756DF !important;
+}
+.navbar .nav-item .nav-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    transition: .4s;
+}
+.navbar .nav-item .nav-link:hover {
+    color: #4756DF;
+    font-weight: 700;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.navbar .btn {
+    background: #6A4DF4;
+    border: 1px solid #6A4DF4;
+    border-radius: 10px;
+    border: 1px solid #6A4DF4;
+    padding: 19px 42px !important;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: .4s;
+}
+.navbar .btn:hover {
+    background: transparent;
+    border: 1px solid #6A4DF4;
+    color: #FFFFFF;
+}
+/* ---------- NavBar Part CSS End ---------- */
+
+/* ---------- Banner part CSS Start ---------- */
+#banner_slidder {
+    position: relative;
+}
+#banner_slidder ul {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 53px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+#banner_slidder ul li {
+    height: 24px;
+    width: 24px;
+    background-color: #4756DF;
+    border-radius: 50%;
+    margin: 0 1px;
+}
+#banner_slidder ul .slick-active {
+    border: 4px solid #FFFFFF;
+}
+#banner_slidder button {
+    display: none;
+}
+#banner_slidder .banner-part {
+    background: url(../images/agenc-Banner\ 1.jpg)no-repeat center;
+    background-size: cover;
+}
+#banner_slidder .bannerimg_01 {
+    background: url(../images/agenc-Banner\ 1\ \(1\).jpg)no-repeat center;
+    background-size: cover;
+}
+#banner_slidder .bannerimg_02 {
+    background: url(../images/agenc-Banner\ 1\ \(2\).jpg)no-repeat center;
+    background-size: cover;
+}
+#banner_slidder .bannerimg_03 {
+    background: url(../images/agenc-Banner\ 1\ \(3\).jpg)no-repeat center;
+    background-size: cover;
+}
+#banner_slidder .banner-part .overlay {
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.6);
+    padding: 315px 0 176px !important;
+    
+}
+#banner_slidder .banner-part .main {
+    text-align: center;
+}
+#banner_slidder .banner-part .main h1 {
+    width: 950px;
+    margin: 0 auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+#banner_slidder .banner-part .main p {
+    width: 621px;
+    margin: 0 auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 51px;
+    margin-bottom: 40px;
+}
+#banner_slidder .banner-part .main a {
+    background: #6A4DF4;
+    border-radius: 10px;
+    border: 1px solid #6A4DF4;
+    padding: 19px 42px !important;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: .4s;
+}
+#banner_slidder .banner-part .main a:hover {
+    background: transparent;
+    border: 1px solid #6A4DF4;
+    color: #FFFFFF;
+}
+/* ---------- Banner part CSS End ---------- */
+
+
+/* ---------- Counter CSS Start ---------- */
+#counter-part {
+    padding: 170px 0 150px !important;
+}
+#counter-part .main {
+    background: #E0FFF9;
+    border-radius: 20px;
+    padding: 70px 51px 85px !important;
+}
+#counter-part .main .left h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 120%;
+    color: #6A4DF4;
+    margin-bottom: 15px;
+}
+#counter-part .main .left h1{
+    width: 387px;
+    margin: 0 auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    color: #151515;
+}
+#counter-part .main .right {
+    display: flex;
+    justify-content: flex-end;
+}
+#counter-part .main .right .text {
+    margin-left: 110px;
+}
+#counter-part .main .right .text h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #151515;
+}
+#counter-part .main .right .text p {
+    width: 184px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #737373;
+    }
+/* ---------- Counter CSS End ---------- */
+
+
+/* ---------- Service part CSS Start ---------- */
+#service-part {
+    padding: 150px 0 !important;
+}
+#service-part .titel p {
+    width: 609px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#service-part .main {
+    text-align: center;
+    padding: 80px 49px 47px !important;
+    margin: 0;
+    transition: .4s;
+    margin-bottom: 24px;
+}
+#service-part .active {
+    background-color: #FFFFFF !important;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+#service-part .main:hover {
+    background-color: #FFFFFF !important;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+#service-part .main .text h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #151515;
+    margin: 41px 0 20px;
+}
+#service-part .main .text p {
+    width: 326px;
+    margin: 0 auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #737373;
+}
+/* ---------- Service Pat CSS End ---------- */
+
+
+/* ---------- Recent Part CSS Start ---------- */
+#recent-part {
+    padding: 150px 0 !important;
+    background-color: #F3F3F3;
+}
+#recent-part .titel p {
+    width: 620px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 106px;
+}
+#recent-part .main {
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    overflow: hidden;
+    transition: .4s;
+}
+#recent-part .main:hover {
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+}
+#recent-part .main img {
+    width: 100%;
+}
+#recent-part .main .text {
+    padding: 30px 42px !important;
+}
+#recent-part .main .text h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #151515;
+}
+#recent-part .main .text p {
+    width: 340px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #737373;
+}
+/* ---------- Recent PArt CSS End ---------- */
+
+
+/* ---------- Agenc-part CSS Start ---------- */
+#agenc-part {
+    padding: 150px 0 0 !important;
+}
+#agenc-part .titel h2 {
+    width: 518px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#agenc-part .titel p {
+    width: 802px;
+    margin: 0 auto;
+}
+#agenc-part .top {
+    margin-top: 130px;
+}
+#agenc-part .top h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #151515;
+    margin: 20px 0 10px;
+}
+#agenc-part .top p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+    width: 344px;
+}
+#agenc-part .bottom {
+    margin-top: 88px;
+}
+#agenc-part .bottom h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #151515;
+    margin: 20px 0 10px;
+}
+#agenc-part .bottom p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+    width: 344px;
+}
+#agenc-part .image {
+    margin-top: 130px;
+}
+#agenc-part .image img {
+    border-radius: 30px;
+}
+/* ---------- Agenc-part CSS End ---------- */
+
+
+/* ---------- Client part CSS Start ---------- */
+#client-part {
+    padding: 106px 0 227px !important;
+}
+#client-part .client_01 {
+    display: flex;
+    margin-top: 107px;
+    position: relative;
+}
+#client-part .client_01 .prev {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    height: 40px;
+    width: 40px;
+    background: #4756DF;
+    color: #FFFFFF;
+    z-index: 999;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+#client-part .client_01 .next {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    height: 40px;
+    width: 40px;
+    background: #4756DF;
+    color: #FFFFFF;
+    z-index: 999;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: translate(50%, -50%);
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+}
+#client-part .client_01 .slick-center {
+    background-color: #ffeeee;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+#client-part .client_01 .client-slider {
+    width: 424px;
+    padding: 54px 59px !important;
+    margin: 0 12px;
+    transition: .4s;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+#client-part .client_01 .client-slider .text p {
+    width: 307px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    margin: 20px 0;
+}
+#client-part .client_01 .client-slider .icon_01 {
+    color: #F9BD2C;
+}
+#client-part .client_01 .client-slider .slider-bottom {
+    display: flex;
+    margin-top: 30px;
+}
+#client-part .client_01 .client-slider .slider-bottom .text_01 {
+    margin-left: 20px;
+}
+#client-part .client_01 .client-slider .slider-bottom .text_01 h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #232323;
+}
+#client-part .client_01 .client-slider .slider-bottom .text_01 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7B7B7B;
+}
+#client-part .client_01 .client-slider01 {
+    width: 424px;
+    padding: 54px 59px !important;
+    margin: 0 12px;
+    transition: .4s;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+#client-part .client_01 .client-slider01 .text p {
+    width: 307px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    margin: 20px 0;
+}
+#client-part .client_01 .client-slider01 .icon_01 {
+    color: #F9BD2C;
+}
+#client-part .client_01 .client-slider01 .slider-bottom {
+    display: flex;
+    margin-top: 30px;
+}
+#client-part .client_01 .client-slider01 .slider-bottom .text_01 {
+    margin-left: 20px;
+}
+#client-part .client_01 .client-slider01 .slider-bottom .text_01 h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #232323;
+}
+#client-part .client_01 .client-slider01 .slider-bottom .text_01 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7B7B7B;
+}
+#client-part .client_01 .client-slider02 {
+    width: 424px;
+    padding: 54px 59px !important;
+    margin: 0 12px;
+    transition: .4s;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+#client-part .client_01 .client-slider02 .text p {
+    width: 307px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    margin: 20px 0;
+}
+#client-part .client_01 .client-slider02 .icon_01 {
+    color: #F9BD2C;
+}
+#client-part .client_01 .client-slider02 .slider-bottom {
+    display: flex;
+    margin-top: 30px;
+}
+#client-part .client_01 .client-slider02 .slider-bottom .text_01 {
+    margin-left: 20px;
+}
+#client-part .client_01 .client-slider02 .slider-bottom .text_01 h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #232323;
+}
+#client-part .client_01 .client-slider02 .slider-bottom .text_01 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7B7B7B;
+}
+#client-part .client_01 .client-slider03 {
+    width: 424px;
+    padding: 54px 59px !important;
+    margin: 0 12px;
+    transition: .4s;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+#client-part .client_01 .client-slider03 .text p {
+    width: 307px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    margin: 20px 0;
+}
+#client-part .client_01 .client-slider03 .icon_01 {
+    color: #F9BD2C;
+}
+#client-part .client_01 .client-slider03 .slider-bottom {
+    display: flex;
+    margin-top: 30px;
+}
+#client-part .client_01 .client-slider03 .slider-bottom .text_01 {
+    margin-left: 20px;
+}
+#client-part .client_01 .client-slider03 .slider-bottom .text_01 h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #232323;
+}
+#client-part .client_01 .client-slider03 .slider-bottom .text_01 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7B7B7B;
+}
+#client-part .client_01 .client-slider04 {
+    width: 424px;
+    padding: 54px 59px !important;
+    margin: 0 12px;
+    transition: .4s;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+#client-part .client_01 .client-slider04 .text p {
+    width: 307px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    margin: 20px 0;
+}
+#client-part .client_01 .client-slider04 .icon_01 {
+    color: #F9BD2C;
+}
+#client-part .client_01 .client-slider04 .slider-bottom {
+    display: flex;
+    margin-top: 30px;
+}
+#client-part .client_01 .client-slider04 .slider-bottom .text_01 {
+    margin-left: 20px;
+}
+#client-part .client_01 .client-slider04 .slider-bottom .text_01 h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #232323;
+}
+#client-part .client_01 .client-slider04 .slider-bottom .text_01 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7B7B7B;
+}
+#client-part .client_01 .client-slider05 {
+    width: 424px;
+    padding: 54px 59px !important;
+    margin: 0 12px;
+    transition: .4s;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+#client-part .client_01 .client-slider05 .text p {
+    width: 307px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    margin: 20px 0;
+}
+#client-part .client_01 .client-slider05 .icon_01 {
+    color: #F9BD2C;
+}
+#client-part .client_01 .client-slider05 .slider-bottom {
+    display: flex;
+    margin-top: 30px;
+}
+#client-part .client_01 .client-slider05 .slider-bottom .text_01 {
+    margin-left: 20px;
+}
+#client-part .client_01 .client-slider05 .slider-bottom .text_01 h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #232323;
+}
+#client-part .client_01 .client-slider05 .slider-bottom .text_01 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7B7B7B;
+}
+/* ---------- Client part CSS End ---------- */
+
+
+/* ---------- Form Part CSS Start ---------- */
+#form-part {
+    background: #F3F3F3;
+    padding: 150px 0 !important;
+}
+#form-part .text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#form-part .text h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #151515;
+}
+#form-part .text p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    width: 515px;
+}
+#form-part .text .p_01{
+    margin: 20px 0 10px;
+}
+#form-part .main {
+    background: #FFFFFF !important;
+    border-radius: 20px;
+    width: 536px;
+    padding: 61px 43px !important;
+    margin-left: 146px;
+}
+#form-part .main .titel h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #151515;
+    text-align: center;
+}
+#form-part .main .bottom-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+#form-part .main .bottom-part label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #151515;
+    margin-bottom: 10px;
+}
+#form-part .main .bottom-part input {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #D0D0D0;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding: 19px 0 19px 23px  !important;
+    margin-bottom: 20px;
+    width: 100%;
+    outline: 0;
+}
+#form-part .main .bottom-part input:focus {
+    color: black;
+    
+}
+#form-part .main .bottom-part .form-btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #6A4DF4;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: 1px solid #6A4DF4;
+    transition: .4s;
+} 
+#form-part .main .bottom-part .form-btn:hover {
+    background: transparent;
+    border: 1px solid #6A4DF4;
+    color: black;
+}
+
+/* ---------- Form Part CSS End ---------- */
+
+
+/* ---------- Contact part CSS Start ---------- */
+#contact-part {
+    padding: 150px 0 50px !important;
+}
+#contact-part p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    width: 356px;
+    margin-top: 30px;
+}
+#contact-part .text .link {
+    display: flex;
+    flex-direction: column;
+}
+#contact-part .text .link li  {
+    text-align: center;
+}
+#contact-part .text .link li a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #7B7B7B;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+#contact-part .text .link li a:hover {
+    color: aqua;
+}
+#contact-part .text h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #151515;
+    margin-bottom: 40px;
+}
+/* ---------- Contact part CSS End ---------- */
+
+
+/* ---------- Footer Part CSS Start ---------- */
+#footer-part .footer-border {
+    border-top: 1px solid #E8E8E8;
+    text-align: center;
+    padding: 20px 0 40px;
+}
+#footer-part .footer-border p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #D0D0D0;
+}
+/* ---------- Footer Part CSS End ---------- */
